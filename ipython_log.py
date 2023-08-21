@@ -527,3 +527,15 @@ if num1.isdigit() and num2.isdigit():
     total = int(num1) + int(num2)
 
     print(f'{num1} + {num2} = {total}')
+# str.isdigit() returns True if a string only contains the digits 0-9 and isn't empty
+
+num1 = input('Enter first number: ')
+num2 = input('Enter second number: ')
+
+if num1.isdigit() and num2.isdigit():
+    total = int(num1) + int(num2)
+
+    print(f'{num1} + {num2} = {total}')
+
+else:
+    print(f'Make sure your inputs are decimal numbers!')

@@ -379,3 +379,10 @@ start = input('Enter start: ')
 finish = input('Enter finish: ')
 
 s[start:finish]
+start = input('Enter start: ')
+finish = input('Enter finish: ')
+
+start = int(start)
+finish = int(finish)
+
+s[start:finish]

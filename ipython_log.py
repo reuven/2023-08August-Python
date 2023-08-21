@@ -145,3 +145,14 @@ print('Hi boss!')
 rint('Nice to see you again.')
 else:
     print(f'Hello, {name}. Nice to meet you.')
+name = input('Enter your name: ')
+
+# if looks to its right, and if the condition returns True, then the "if" block is run
+# at the end of the line with "if", we have a colon
+# after the colon we have an indented block that all goes together as one
+# 
+if name == 'Reuven':
+    print('Hi boss!')
+    print('Nice to see you again.')
+else:
+    print(f'Hello, {name}. Nice to meet you.')

@@ -395,3 +395,7 @@ s[-2]
 # what if I want to change a string?
 
 s[0] = '!' 
+s = 'abcd'
+s += 'efgh'
+
+s

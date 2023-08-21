@@ -371,3 +371,7 @@ s[:10]   # from the start up to (not including) index 10
 s[10:]  # from index 10 through the end.
 s = 'abcdefghijklmnopqrstuvwxyz'
 len(s)
+start = 10
+finish = 20
+
+s[start:finish]

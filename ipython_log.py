@@ -357,3 +357,5 @@ s[2]
 s[25]  # but that's obvious
 # I can also use a function call inside of the []
 s[ len(s)-1 ]
+final_index = len(s) - 1
+s[final_index]

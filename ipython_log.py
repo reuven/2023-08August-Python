@@ -225,3 +225,7 @@ y = 20
 
 if x == 10 and y == 20:
     print('yes, both are what you want')
+# similarly, you can use "or" to check if one condition is True
+
+if x == 10 or y == 30 or y == 50 or x == 100:
+    print('Yes, one is what you wanted')

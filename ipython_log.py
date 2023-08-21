@@ -190,3 +190,13 @@ if word1 < word2:
     print(f'{word1} comes before {word2}')
 else:
     print(f'{word2} comes before {word1}')
+name = input('Enter your name: ')
+
+if name == 'Reuven':
+    print('Yay! You are the best')
+elif name == 'someone else':
+    print('What? That is not even a name!')
+elif name == 'abcdefghij':
+    print('That is even weirder!')
+else:
+    print(f'Nice to meet you, {name}.')

@@ -259,3 +259,15 @@ x
 # we can shorten that with:
 
 x += 1    # this is a very common idiom
+# what if I have a string in a variable, and I want to turn it into an integer?
+
+x = 10
+y = '20'   # how can I add this?
+
+# we can always get an integer from a string by calling int() on that string
+# but if the string contains non-integer values, BOOM 
+
+int(y)   # this doesn't change y! This gives us a new integer value that we can assign to a variable
+
+y = int(y)   # get an int value based on y, and assign back to the variable y.  
+x + y

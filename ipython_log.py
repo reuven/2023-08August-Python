@@ -301,3 +301,35 @@ elif guess < number:
     print('Too low!')
 else:
     print('Too high!')
+# let's fix this!
+
+import random
+number = random.randint(0, 100)
+
+print(f'Number is {number}')   # f-strings can handle numbers and anything else, too!
+
+guess = input('Guess a number: ')
+guess = int(guess)   
+
+if guess == number:
+    print('You got it!')
+elif guess < number:
+    print('Too low!')
+else:
+    print('Too high!')
+# let's fix this!
+
+import random
+number = random.randint(0, 100)
+
+print(f'Number is {number}')   # f-strings can handle numbers and anything else, too!
+
+guess = input('Guess a number: ')
+guess = int(guess)   
+
+if guess == number:
+    print('You got it!')
+elif guess < number:
+    print('Too low!')
+else:
+    print('Too high!')

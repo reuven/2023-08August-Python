@@ -16,3 +16,9 @@ print('Reuven')
 print(Reuven)   # no quotes? Then Python will get confused
 print(Reuven
 print('Reuven)
+# what if I want to store my name (or someone else's name) for future use, or for reuse?
+# that is where variables come in.
+
+# if functions (like print) are verbs, then variables are pronouns referring to values.
+
+name = 'Reuven'

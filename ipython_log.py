@@ -28,3 +28,5 @@ first_name = 'Reuven'
 first_name_of_the_instructor_for_this_course = 'Reuven'
 name = 'Reuven'
 print(name)
+print(2 + 3)
+print(10 - 5)

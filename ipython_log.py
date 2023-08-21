@@ -72,3 +72,26 @@ print('Hello, ' + name + '!')
 
 # assignment always means: get the value from the right side, and assign to the variable on the left side
 name = input('Enter your name: ')
+print(name)
+# It's pretty boring for us to use the same values in our programs, again and again.
+# We want to get input from the user, and get a bit more variety.
+
+# The way we can do that is with the "input" function.
+# We call "input" and pass (in the parentheses) a text string indicating what our question is.
+# The "input" function, when it runs, stops the program, and waits for user input.
+# Then "input" returns the value of whatever the user entered ,as a text string.
+# It's very common to have "input" on the right of an assignment. IN other words:
+
+# assignment always means: get the value from the right side, and assign to the variable on the left side
+name = input('Enter your name: ')
+# It's pretty boring for us to use the same values in our programs, again and again.
+# We want to get input from the user, and get a bit more variety.
+
+# The way we can do that is with the "input" function.
+# We call "input" and pass (in the parentheses) a text string indicating what our question is.
+# The "input" function, when it runs, stops the program, and waits for user input.
+# Then "input" returns the value of whatever the user entered ,as a text string.
+# It's very common to have "input" on the right of an assignment. IN other words:
+
+# assignment always means: get the value from the right side, and assign to the variable on the left side
+name = input('Enter your name: ')

@@ -130,3 +130,5 @@ x = 'abcd'
 y = 'abcd'
 
 x == y
+10 > 5    
+'hello' > 'goodbye'

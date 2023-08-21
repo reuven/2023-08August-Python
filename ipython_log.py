@@ -24,3 +24,5 @@ print('Reuven)
 name = 'Reuven'
 name = 'Reuven'
 first_name = 'Reuven'
+# this is OK, but your colleagues will hate you!
+first_name_of_the_instructor_for_this_course = 'Reuven'

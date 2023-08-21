@@ -1,3 +1,13 @@
 # IPython log file
 
 
+# this is a comment. Python ignores anything starting with the # until the end of the line
+# I can write as many comments as I want.
+# typically, comments are used to give information to the next programmer who will work on this project.
+
+# print is a function, it's a verb -- it does something -- and that something is display things on the screen
+# print can display *anything* in Python
+
+# after we say "print", we then use round parentheses around whatever we want to display
+# if we want to display text, we need to use quotes around it, either '' or "" .
+print('Hello!')   

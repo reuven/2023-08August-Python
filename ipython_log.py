@@ -97,3 +97,4 @@ name = input('Enter your name: ')
 name = input('Enter your name: ')
 print(name)
 n = input('Enter your favorite number: ')
+print(n + 3)   # what will it print here?

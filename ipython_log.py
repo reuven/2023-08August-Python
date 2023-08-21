@@ -256,3 +256,6 @@ x = 10
 x = x + 1   # this makes no mathematical sense... but = isn't a math operator! It's assignment!
 
 x
+# we can shorten that with:
+
+x += 1    # this is a very common idiom

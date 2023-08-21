@@ -57,3 +57,7 @@ name = 'Reuven'
 print('Hello, ' + name + '!')
 name = 'Reuven'
 print('Hello, ' + name + '!')
+name = 'Reuven'
+print('Hello,' + name + '!')
+name = 'Reuven'
+print('Hello, ' + name + '!')

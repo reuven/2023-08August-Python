@@ -110,3 +110,6 @@ print('Hello, ' + name + ', from ' + city + '!')
 # Inside of the string, if you have {}, any Python variable or expression can be there
 
 print(f'Hello, {name}, from {city}!')
+name = input('Please enter your name?: ') 
+city = input('What city are you from?: ')
+print('Hello ' + name + ' from ' + city + '! It is a pleasure to meet you!')

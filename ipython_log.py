@@ -38,3 +38,11 @@ x = 'abcd'
 y = 'efgh'
 
 print(x + y)
+# what happens if we try to mix different types?
+# at the end of the day, our computer is just lots of 1s and 0s
+# but for our purposes at a high level, we have different types of data -- each type can do different things
+
+x = 10
+y = '20'    # this is not the number 20, it is a text string with the characters 2 0
+
+print(x + y)

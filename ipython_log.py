@@ -355,3 +355,5 @@ s[1]
 s[2]
 # how can I get the final character?
 s[25]  # but that's obvious
+# I can also use a function call inside of the []
+s[ len(s)-1 ]

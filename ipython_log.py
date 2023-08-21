@@ -622,3 +622,43 @@ elif guess < number:
     print('Too low!')
 else:
     print('Too high!')
+import random
+number = random.randint(0, 100)
+
+print(f'Number is {number}')   # f-strings can handle numbers and anything else, too!
+
+guess = input('Guess a number: ')
+
+if guess.isdigit():   # isdigit is a *string* method -- only runs on strings
+
+    guess = int(guess)
+    
+    if guess == number:
+        print('You got it!')
+    elif guess < number:
+        print('Too low!')
+    else:
+        print('Too high!')
+
+else:
+    print(f'Make sure to guess numbers in the future!')
+import random
+number = random.randint(0, 100)
+
+print(f'Number is {number}')   # f-strings can handle numbers and anything else, too!
+
+guess = input('Guess a number: ')
+
+if guess.isdigit():   # isdigit is a *string* method -- only runs on strings
+
+    guess = int(guess)
+    
+    if guess == number:
+        print('You got it!')
+    elif guess < number:
+        print('Too low!')
+    else:
+        print('Too high!')
+
+else:
+    print(f'Make sure to guess numbers in the future!')

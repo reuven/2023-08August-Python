@@ -249,3 +249,4 @@ x / x
 # what if I want to divide two numbers, and keep only the integer part?
 x // y    # this performs the division, and cuts (doesn't round) any fractional part
 x ** y   # exponentiation
+x % y   # the remainder after dividing x by y

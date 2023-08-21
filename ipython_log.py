@@ -375,3 +375,7 @@ start = 10
 finish = 20
 
 s[start:finish]
+start = input('Enter start: ')
+finish = input('Enter finish: ')
+
+s[start:finish]

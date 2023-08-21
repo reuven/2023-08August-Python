@@ -346,3 +346,10 @@ print(s)
 s = 'abcdefghijklmnopqrstuvwxyz'
 
 len(s)   # how many characters are in the string s?
+# can I retrieve an individual character from s?
+# yes, using [] and a numeric index inside 
+# the index starts with 0
+
+s[0]
+s[1]
+s[2]

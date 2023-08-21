@@ -386,3 +386,7 @@ start = int(start)
 finish = int(finish)
 
 s[start:finish]
+s = 'abcdefghijklmnopqrstuvwxyz'
+
+s[0]
+s[1]

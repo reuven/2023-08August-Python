@@ -113,3 +113,12 @@ print(f'Hello, {name}, from {city}!')
 name = input('Please enter your name?: ') 
 city = input('What city are you from?: ')
 print('Hello ' + name + ' from ' + city + '! It is a pleasure to meet you!')
+# what if I want to know if two things are equal?
+
+x = 10
+y = 10
+
+# are they the same?
+# we have to compare with ==
+
+x == y   # this is a totaly different operator -- asks the question, are the two sides equal? 

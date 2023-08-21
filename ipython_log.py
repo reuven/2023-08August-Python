@@ -157,3 +157,19 @@ if name == 'Reuven':
 else:
     print(f'Hello, {name}. Nice to meet you.')
 x = input('Enter something: ')
+name = input('Enter your name: ')
+
+if name == 'Reuven':   # colon at the end of the "if"
+    print('Yay!')
+    print('I know you')
+else:
+    print('Boo!')
+    print('I only want to see Reuven!')
+name = input('Enter your name: ')
+
+if name == 'Reuven':   # colon at the end of the "if"
+    print('Yay!')
+    print('I know you')
+else:
+    print('Boo!')
+    print('I only want to see Reuven!')

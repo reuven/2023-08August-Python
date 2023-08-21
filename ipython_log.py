@@ -229,3 +229,5 @@ if x == 10 and y == 20:
 
 if x == 10 or y == 30 or y == 50 or x == 100:
     print('Yes, one is what you wanted')
+x = 10
+type(x)

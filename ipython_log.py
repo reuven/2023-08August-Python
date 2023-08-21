@@ -122,3 +122,11 @@ y = 10
 # we have to compare with ==
 
 x == y   # this is a totaly different operator -- asks the question, are the two sides equal? 
+x = 10
+y = 9
+
+x == y
+x = 'abcd'
+y = 'abcd'
+
+x == y

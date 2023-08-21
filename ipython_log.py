@@ -55,3 +55,5 @@ print(result)
 print('The result was ' + result)
 name = 'Reuven'
 print('Hello, ' + name + '!')
+name = 'Reuven'
+print('Hello, ' + name + '!')

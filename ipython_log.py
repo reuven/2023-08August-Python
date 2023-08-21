@@ -99,3 +99,7 @@ print(name)
 n = input('Enter your favorite number: ')
 print(n + 3)   # what will it print here?
 print(n + n)
+name = input('Enter your name: ')
+city = input('Enter your city: ')
+
+print('Hello, ' + name + ', from ' + city + '!')

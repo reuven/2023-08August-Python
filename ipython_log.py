@@ -468,3 +468,6 @@ name.strip()
 # you have to assign it back to the orignal variable to "change" it
 
 name = name.strip()   # this does the trick.
+name = input('Enter your name: ')
+name = name.strip()
+print(f'Hello, {name}.')

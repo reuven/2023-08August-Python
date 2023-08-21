@@ -369,3 +369,5 @@ s[10:20]   # s, from index 10 up to and not including index 20
 # slice without a first number grabs from the beginning
 s[:10]   # from the start up to (not including) index 10
 s[10:]  # from index 10 through the end.
+s = 'abcdefghijklmnopqrstuvwxyz'
+len(s)

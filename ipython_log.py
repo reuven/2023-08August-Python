@@ -343,3 +343,6 @@ float(s)
 s = 'He's very nice.'
 s = 'He\'s very nice.'
 print(s)
+s = 'abcdefghijklmnopqrstuvwxyz'
+
+len(s)   # how many characters are in the string s?

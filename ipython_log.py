@@ -428,3 +428,15 @@ word = input('Enter a word: ')
 
 if word[0] in 'aeiou':
     print(word = 'way')
+# remember that we can use "in" to search in a string
+
+word = input('Enter a word: ')
+
+if word[0] in 'aeiou':
+    print(word + 'way')
+# remember that we can use "in" to search in a string
+
+word = input('Enter a word: ')
+
+if word[0] in 'aeiou':
+    print(word + 'way')

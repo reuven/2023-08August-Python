@@ -403,3 +403,8 @@ s = 'abcd'
 s += 'efgh'   # s = s + 'efgh'
 
 s
+# no, this isn't a modified string
+# is a new string based on the original s
+
+s = 'abcd'
+print(id(s))  # what is the unique ID number of the string s refers to?

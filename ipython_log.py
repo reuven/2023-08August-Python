@@ -471,3 +471,6 @@ name = name.strip()   # this does the trick.
 name = input('Enter your name: ')
 name = name.strip()
 print(f'Hello, {name}.')
+# shorten the above code...
+name = input('Enter your name: ').strip()
+print(f'Hello, {name}.')

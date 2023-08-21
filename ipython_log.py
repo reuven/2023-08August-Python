@@ -463,3 +463,8 @@ print(f'Hello, {name}!')
 name
 # the str.strip method removes whitespace (space, newline, and a few other characters) from the edges of a string
 name.strip()
+# does name.strip() change name?
+# no -- it can't, because strings are immutable.
+# you have to assign it back to the orignal variable to "change" it
+
+name = name.strip()   # this does the trick.

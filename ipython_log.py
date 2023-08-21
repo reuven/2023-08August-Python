@@ -103,3 +103,10 @@ name = input('Enter your name: ')
 city = input('Enter your city: ')
 
 print('Hello, ' + name + ', from ' + city + '!')
+# What if I want the above to be a bit more ... readable?
+# A few years ago, Python introduced a new feature called "f-strings"
+# An f-string is a string, but it can have variable and other dynamic values in it
+# You define it like a regular string but with f before the opening quote.
+# Inside of the string, if you have {}, any Python variable or expression can be there
+
+print(f'Hello, {name}, from {city}!')

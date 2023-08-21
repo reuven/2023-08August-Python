@@ -53,3 +53,5 @@ result = n1 + n2
 
 print(result)
 print('The result was ' + result)
+name = 'Reuven'
+print('Hello, ' + name + '!')

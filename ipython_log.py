@@ -392,3 +392,6 @@ s[0]
 s[1]
 s[-1]  # count from the right side!
 s[-2]
+# what if I want to change a string?
+
+s[0] = '!' 

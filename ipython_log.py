@@ -474,3 +474,8 @@ print(f'Hello, {name}.')
 # shorten the above code...
 name = input('Enter your name: ').strip()
 print(f'Hello, {name}.')
+# other string methods
+
+s = 'aBcD eFgH'
+
+s.lower()  # returns a new string based on s, all lowercase

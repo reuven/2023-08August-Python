@@ -333,3 +333,5 @@ elif guess < number:
     print('Too low!')
 else:
     print('Too high!')
+x = 1.0
+type(x)

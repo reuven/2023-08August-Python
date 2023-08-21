@@ -243,3 +243,6 @@ y = 3
 x + y   # addition
 x - y  # subtraction
 
+x * y   # multiplication
+x / y   # division, always returning a float
+x / x

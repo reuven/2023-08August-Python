@@ -11,3 +11,4 @@
 # after we say "print", we then use round parentheses around whatever we want to display
 # if we want to display text, we need to use quotes around it, either '' or "" .
 print('Hello!')   
+print(2 + 5)

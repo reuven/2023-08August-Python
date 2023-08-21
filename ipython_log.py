@@ -231,3 +231,7 @@ if x == 10 or y == 30 or y == 50 or x == 100:
     print('Yes, one is what you wanted')
 x = 10
 type(x)
+x = 10
+y = '20'   # string 20
+
+x + y

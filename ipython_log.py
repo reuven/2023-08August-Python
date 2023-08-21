@@ -284,3 +284,4 @@ elif guess < number:
     print('Too low!')
 else:
     print('Too high!')
+7 == '7'

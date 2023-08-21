@@ -250,3 +250,9 @@ x / x
 x // y    # this performs the division, and cuts (doesn't round) any fractional part
 x ** y   # exponentiation
 x % y   # the remainder after dividing x by y
+# what if x is 10, and I want to increment it by 1?
+
+x = 10
+x = x + 1   # this makes no mathematical sense... but = isn't a math operator! It's assignment!
+
+x

@@ -235,3 +235,11 @@ x = 10
 y = '20'   # string 20
 
 x + y
+# what can we do with integers?
+
+x = 10
+y = 3
+
+x + y   # addition
+x - y  # subtraction
+

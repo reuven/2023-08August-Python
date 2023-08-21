@@ -200,3 +200,23 @@ elif name == 'abcdefghij':
     print('That is even weirder!')
 else:
     print(f'Nice to meet you, {name}.')
+name = input('Enter your name: ')
+
+if name == 'Reuven':
+    print('Yay! You are the best')
+elif name == 'someone else':
+    print('What? That is not even a name!')
+elif name == 'abcdefghij':
+    print('That is even weirder!')
+else:
+    print(f'Nice to meet you, {name}.')
+name = input('Enter your name: ')
+
+if name == 'Reuven':
+    print('Yay! You are the best')
+elif name == 'someone else':
+    print('What? That is not even a name!')
+elif name == 'abcdefghij':
+    print('That is even weirder!')
+else:
+    print(f'Nice to meet you, {name}.')

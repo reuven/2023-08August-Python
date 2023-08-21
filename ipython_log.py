@@ -461,3 +461,5 @@ name = input('Enter your name: ')
 
 print(f'Hello, {name}!')
 name
+# the str.strip method removes whitespace (space, newline, and a few other characters) from the edges of a string
+name.strip()

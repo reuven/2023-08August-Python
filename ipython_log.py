@@ -340,3 +340,4 @@ s = '1234'
 float(s)
 0.1 + 0.2
 # bottom line remember that floats aren't exact, and you might need to round them to ensure they're useful.
+s = 'He's very nice.'

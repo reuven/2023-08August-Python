@@ -271,3 +271,16 @@ int(y)   # this doesn't change y! This gives us a new integer value that we can 
 
 y = int(y)   # get an int value based on y, and assign back to the variable y.  
 x + y
+import random
+number = random.randint(0, 100)
+
+print(f'Number is {number}')   # f-strings can handle numbers and anything else, too!
+
+guess = input('Guess a number: ')
+
+if guess == number:
+    print('You got it!')
+elif guess < number:
+    print('Too low!')
+else:
+    print('Too high!')

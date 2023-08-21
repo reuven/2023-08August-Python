@@ -399,3 +399,7 @@ s = 'abcd'
 s += 'efgh'
 
 s
+s = 'abcd'
+s += 'efgh'   # s = s + 'efgh'
+
+s

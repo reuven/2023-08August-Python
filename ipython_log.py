@@ -363,3 +363,6 @@ s[final_index]
 
 'b' in s
 'cdef' in s
+# a slice -- get a subset of a string
+
+s[10:20]   # s, from index 10 up to and not including index 20

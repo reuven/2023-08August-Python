@@ -359,3 +359,7 @@ s[25]  # but that's obvious
 s[ len(s)-1 ]
 final_index = len(s) - 1
 s[final_index]
+# I can search in a string, too
+
+'b' in s
+'cdef' in s

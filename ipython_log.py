@@ -366,3 +366,5 @@ s[final_index]
 # a slice -- get a subset of a string
 
 s[10:20]   # s, from index 10 up to and not including index 20
+# slice without a first number grabs from the beginning
+s[:10]   # from the start up to (not including) index 10

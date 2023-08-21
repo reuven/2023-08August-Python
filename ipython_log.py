@@ -95,3 +95,4 @@ name = input('Enter your name: ')
 
 # assignment always means: get the value from the right side, and assign to the variable on the left side
 name = input('Enter your name: ')
+print(name)

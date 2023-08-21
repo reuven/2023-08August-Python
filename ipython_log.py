@@ -408,3 +408,5 @@ s
 
 s = 'abcd'
 print(id(s))  # what is the unique ID number of the string s refers to?
+s += 'efgh'
+print(id(s))

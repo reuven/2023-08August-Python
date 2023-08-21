@@ -176,3 +176,17 @@ else:
 # the "else" clause is optional -- you don't need it
 # but if you don't have it, then the "if" either runs or not
 # nothing happens if the if's condition is False
+word1 = input('Enter word 1: ')
+word2 = input('Enter word 2: ')
+
+if word1 < word2:
+    print(f'{word1} comes before {word2}')
+else:
+    print(f'{word2} comes before {word1}')
+word1 = input('Enter word 1: ')
+word2 = input('Enter word 2: ')
+
+if word1 < word2:
+    print(f'{word1} comes before {word2}')
+else:
+    print(f'{word2} comes before {word1}')

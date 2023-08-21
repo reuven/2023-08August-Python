@@ -338,3 +338,4 @@ type(x)
 float(1)   # call int to get an integer, call float to get a float
 s = '1234'
 float(s)
+0.1 + 0.2

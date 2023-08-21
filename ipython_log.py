@@ -173,3 +173,6 @@ if name == 'Reuven':   # colon at the end of the "if"
 else:
     print('Boo!')
     print('I only want to see Reuven!')
+# the "else" clause is optional -- you don't need it
+# but if you don't have it, then the "if" either runs or not
+# nothing happens if the if's condition is False

@@ -335,3 +335,4 @@ else:
     print('Too high!')
 x = 1.0
 type(x)
+float(1)   # call int to get an integer, call float to get a float

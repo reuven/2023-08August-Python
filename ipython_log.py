@@ -482,3 +482,8 @@ s.lower()  # returns a new string based on s, all lowercase
 s.upper()  # returns a new string based on s, all uppercase
 s.title()
 s.swapcase()
+num1 = input('Enter first number: ')
+num2 = input('Enter second number: ')
+total = num1 + num2
+
+print(f'{num1} + {num2} = {total}')

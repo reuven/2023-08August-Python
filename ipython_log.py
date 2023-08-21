@@ -132,3 +132,5 @@ y = 'abcd'
 x == y
 10 > 5    
 'hello' > 'goodbye'
+# if you use > or < on strings, they are compared more or less alphabetically
+'hello' > 'goodbye'

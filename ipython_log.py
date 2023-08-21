@@ -156,3 +156,4 @@ if name == 'Reuven':
     print('Nice to see you again.')
 else:
     print(f'Hello, {name}. Nice to meet you.')
+x = input('Enter something: ')

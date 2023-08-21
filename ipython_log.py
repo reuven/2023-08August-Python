@@ -30,3 +30,7 @@ name = 'Reuven'
 print(name)
 print(2 + 3)
 print(10 - 5)
+x = 10
+y = 7
+
+print(x + y)   # first, we do what's inside the parentheses, and we get a result

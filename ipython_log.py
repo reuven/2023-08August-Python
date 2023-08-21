@@ -34,3 +34,7 @@ x = 10
 y = 7
 
 print(x + y)   # first, we do what's inside the parentheses, and we get a result
+x = 'abcd'
+y = 'efgh'
+
+print(x + y)

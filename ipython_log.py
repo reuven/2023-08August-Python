@@ -481,3 +481,4 @@ s = 'aBcD eFgH'
 s.lower()  # returns a new string based on s, all lowercase
 s.upper()  # returns a new string based on s, all uppercase
 s.title()
+s.swapcase()

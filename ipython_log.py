@@ -353,3 +353,5 @@ len(s)   # how many characters are in the string s?
 s[0]
 s[1]
 s[2]
+# how can I get the final character?
+s[25]  # but that's obvious

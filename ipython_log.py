@@ -220,3 +220,8 @@ elif name == 'abcdefghij':
     print('That is even weirder!')
 else:
     print(f'Nice to meet you, {name}.')
+x = 10
+y = 20
+
+if x == 10 and y == 20:
+    print('yes, both are what you want')

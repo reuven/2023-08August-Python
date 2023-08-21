@@ -46,3 +46,9 @@ x = 10
 y = '20'    # this is not the number 20, it is a text string with the characters 2 0
 
 print(x + y)
+n1 = 123
+n2 = 456
+
+result = n1 + n2
+
+print(result)

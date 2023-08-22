@@ -411,3 +411,4 @@ list(s)
 # return a new list of strings:
 
 s.split(':')   # this means: return a new list of strings, using ':' as the field separator, aka where to cut
+s.split('d')   # weird, but it'll work!

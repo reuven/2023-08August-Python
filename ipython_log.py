@@ -35,3 +35,8 @@ for one_character in s:
 
 # print(total)
 print(f'{s} has {total} vowels')
+# I'm in a great mood -- hooray for Python!
+
+print('Hooray for Python!')
+print('Hooray for Python!')
+print('Hooray for Python!')

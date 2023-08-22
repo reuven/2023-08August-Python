@@ -232,3 +232,19 @@ while True:     # this is scary looking -- it's an infinite loop!
         break
 
     print(f'Hello, {name}!')
+total = 0
+
+while True:     
+    s = input('Enter some digits: ').strip()
+
+    if s == '':   # there is nothing between these quotes -- it's really the *EMPTY* string!
+        break
+
+    for one_character in s:
+        if not one_character.isdigit():   # if this isn't 0-9... 
+            print(f'{one_character} is not numeric!')
+            continue
+
+        total += int(one_character)
+
+print(f'total = {total}')

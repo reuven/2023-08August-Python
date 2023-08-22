@@ -425,3 +425,10 @@ s.split(' ')
 # tab (\t), newline (\n), carriage return (\r), and vertical tab (\v)
 
 s.split()    # no argument to s.split does exactly this!
+total = 0
+s = input('Enter numbers: ').strip()
+
+# str.strip removes whitespace from the sides (start and finish) of the string
+# str.split returns a list of strings from the string
+
+s.split()

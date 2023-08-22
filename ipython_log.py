@@ -44,3 +44,5 @@ print('Hooray for Python!')
 
 for counter in 3:
     print('Hooray for Python!')
+for count in range(3):
+    print('Hooray for Python!')

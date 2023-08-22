@@ -623,3 +623,8 @@ for t in emuerate(s):
 for t in enumerate(s):
     key, value = t
     print(f'{key}: {value}')
+# I could say:
+
+for t in enumerate(s):
+    key, value = t    # unpacking into key, value
+    print(f'{key}: {value}')

@@ -414,3 +414,5 @@ s.split(':')   # this means: return a new list of strings, using ':' as the fiel
 s.split('d')   # weird, but it'll work!
 s = 'abcd ef ghij'
 s.split(' ')
+s = 'abcd,ef,ghij'
+s.split(',')

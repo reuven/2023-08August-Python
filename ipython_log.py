@@ -329,3 +329,4 @@ mylist
 # from the end of the list, and returns it
 
 mylist.pop()
+mylist

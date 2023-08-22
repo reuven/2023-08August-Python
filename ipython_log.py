@@ -418,3 +418,6 @@ s = 'abcd,ef,ghij'
 s.split(',')
 s = 'this is a bunch of words for my course'
 s.split(' ')
+# what about this:
+s = 'this is   a bunch of  words   for my   course'
+s.split(' ')

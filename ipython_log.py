@@ -15,3 +15,4 @@ print('Before')
 for one_character in s:
     print(one_character)
 print('After')    
+one_character

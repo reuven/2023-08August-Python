@@ -102,3 +102,10 @@ name = input('Enter your name: ').strip()
 
 for index in range(len(name)):     # iterate 6 times, getting the numbers 0-5
     print(name[:index+1])          # take that number, add 1 to it, and set it to be the max index
+name=input('What is your name? ').strip() 
+
+total = 0
+
+for numOfLetters in name:
+    total+=1
+    print(name[:total])

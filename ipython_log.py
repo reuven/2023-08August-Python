@@ -395,3 +395,7 @@ mylist
 
 mylist.pop()
 mylist
+# I can also give list.pop an argument, the index I want to get rid of
+
+mylist.pop(0)    # remove the first element, and everything else moves down one index
+mylist

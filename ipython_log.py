@@ -602,3 +602,9 @@ y = 222
 y,x = x,y    # this is how we swap variables without a third temp variable
 x
 y
+# here's a more impressive demo
+# remember our enumerate function?
+
+s = 'abcd'
+for index, one_character in enumerate(s):
+    print(f'{index}, {one_character}')

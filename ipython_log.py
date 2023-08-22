@@ -117,3 +117,14 @@ s = 'abcde'
 for one_character in s:
     print(f'{index}: {one_character}')
     index += 1
+# option 2 -- use Python's "enumerate" function
+# enumerate is meant to be called (a) in a loop (b) with an iterable 
+
+# we call enumerate, passing it the iterable as an argument
+# we get back not only the original elements, but also their indexes
+# the for loop is going to look REALLY weird
+
+s = 'abcde'
+
+for index, one_character in enumerate(s):    # we now have *TWO* loop variables! enumerate sets both
+    print(f'{index}: {one_character}')

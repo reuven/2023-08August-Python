@@ -25,3 +25,13 @@ for one_character in s:
         total += 1                 # add 1 to our total!
 
 print(total)
+total = 0
+
+s = input('Enter a string: ').strip()
+
+for one_character in s:
+    if one_character in 'aeiou':   # is the current character a vowel?
+        total += 1                 # add 1 to our total!
+
+# print(total)
+print(f'{s} has {total} vowels')

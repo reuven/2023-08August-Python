@@ -632,3 +632,7 @@ for t in enumerate(s):
 
 for key, value in enumerate(s):
     print(f'{key}: {value}')
+# Next up (tomorrow):
+
+1. Dictionaries
+2. Files (reading a little writing)

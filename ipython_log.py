@@ -320,3 +320,8 @@ mylist = [10 ,20, 30 ,40, 50]
 mylist[0] = '!'
 mylist
 # lists are mutable!  You can change their elements!
+# lists are mutable (we can change their elements)
+# but we can also add new elements to them, and remove existing ones
+
+mylist.append(60)   # this means: add the integer 60 as a new element to the end of the list
+mylist

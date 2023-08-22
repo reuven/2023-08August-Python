@@ -566,3 +566,7 @@ t = (10)
 type(t)
 t = ()
 type(t)
+# you *can* have a tuple with a single element. But the problem is that we use () for creating
+# tuples and also for combining math expressions.
+
+2 + 3 * 4     # 

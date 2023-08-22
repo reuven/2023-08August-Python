@@ -628,3 +628,7 @@ for t in enumerate(s):
 for t in enumerate(s):
     key, value = t    # unpacking into key, value
     print(f'{key}: {value}')
+# we can combine this into the loop
+
+for key, value in enumerate(s):
+    print(f'{key}: {value}')

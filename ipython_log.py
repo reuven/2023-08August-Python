@@ -258,3 +258,10 @@ total = 5
 
 total += int('3')  # now we're adding the int based on the digit '3' which is a string
 total
+# let's create a list!
+# this list contains 10 elements
+# every element is an integer
+# elements are separated by ,
+# around the outside of the list, we use []
+
+mylist = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]

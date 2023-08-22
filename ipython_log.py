@@ -16,3 +16,12 @@ for one_character in s:
     print(one_character)
 print('After')    
 one_character
+total = 0
+
+s = input('Enter a string: ').strip()
+
+for one_character in s:
+    if one_character in 'aeiou':   # is the current character a vowel?
+        total += 1                 # add 1 to our total!
+
+print(total)

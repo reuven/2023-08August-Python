@@ -160,3 +160,14 @@ while total < 100:
     total += int(s)   # get an int based on s, then add that to total
 
 print(f'total = {total}')
+# let's pretend that there is no "in" operator in Python
+# I have a string, and want to know whether a character is in that string
+
+s = 'abcde'
+look_for = 'd'  
+
+for one_character in s:
+    if look_for == one_character:  # have we found what we want?
+        break
+
+    print(one_character)

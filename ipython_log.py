@@ -440,3 +440,13 @@ s = input('Enter numbers: ').strip()
 
 for one_word in s.split():
     print(one_word)
+total = 0
+s = input('Enter numbers: ').strip()
+
+# str.strip removes whitespace from the sides (start and finish) of the string
+# str.split returns a list of strings from the string
+
+for one_word in s.split():
+    total += int(one_word)
+
+print(total)

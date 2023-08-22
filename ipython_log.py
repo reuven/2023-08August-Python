@@ -375,3 +375,9 @@ print(f'digits = {digits}')
 print(f'vowels = {vowels}')
 print(f'others = {others}')
         
+# adding more than one element to a list
+
+mylist = [10, 20, 30]
+mylist.append([40, 50, 60])  # what will happen?
+
+mylist

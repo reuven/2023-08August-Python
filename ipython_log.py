@@ -580,3 +580,7 @@ type(t)
 # we actually don't need parentheses at all to create tuples...
 
 10,20,30
+mylist = [10, 20, 30]
+
+x = mylist
+x

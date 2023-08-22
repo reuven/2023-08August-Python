@@ -497,3 +497,4 @@ for one_word in s.split():
         total += int(one_word)
     else:
         print('that thing aint a number dawg')
+total

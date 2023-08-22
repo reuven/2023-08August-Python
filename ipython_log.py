@@ -40,3 +40,7 @@ print(f'{s} has {total} vowels')
 print('Hooray for Python!')
 print('Hooray for Python!')
 print('Hooray for Python!')
+# we can use a loop to DRY up this code:
+
+for counter in 3:
+    print('Hooray for Python!')

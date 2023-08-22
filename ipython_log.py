@@ -400,3 +400,7 @@ mylist
 mylist.pop(0)    # remove the first element, and everything else moves down one index
 mylist
 30 in mylist   # will this work?
+# if I have a string, can I turn it into a list?
+
+s = 'abcd'
+list(s)    # I want a list, based on s

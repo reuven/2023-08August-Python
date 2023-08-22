@@ -313,3 +313,9 @@ for one_temp in high_temps:
     total += one_temp
 
 round(total / len(high_temps), 2)   # round the float to the nearest number, with 2 decimal points
+#  can we change lists?
+
+mylist = [10 ,20, 30 ,40, 50]
+
+mylist[0] = '!'
+mylist

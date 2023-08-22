@@ -489,3 +489,11 @@ for one_word in s.split():
     else:
         print('that thing aint a number dawg')
 total
+total = 0
+s = input('please give me string : ') 
+
+for one_word in s.split():
+    if one_word.isdigit():
+        total += int(one_word)
+    else:
+        print('that thing aint a number dawg')

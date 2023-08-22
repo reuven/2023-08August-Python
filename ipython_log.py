@@ -90,3 +90,9 @@ for index in range(6):
 
 for index in range(6):     # iterate 6 times, getting the numbers 0-5
     print(name[:index+1])  # take that number, add 1 to it, and set it to be the max index
+# let's make it general for all names
+
+name = input('Enter your name: ').strip()
+
+for index in range(len(name)):     # iterate 6 times, getting the numbers 0-5
+    print(name[:index+1])          # take that number, add 1 to it, and set it to be the max index

@@ -335,3 +335,11 @@ mylist.append(10)
 mylist.append(20)
 mylist.append(30)
 mylist
+vowels = []
+digits = []
+others = []
+
+s = input('Enter a string: ').strip()
+
+for one_character in s:
+    print(one_character)

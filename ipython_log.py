@@ -62,3 +62,8 @@ for count in range(0):
 
 for count in range(3):
     print('Hooray for Python!')
+# what about count? We have a loop variable there, but what is its value with each iteration?
+# count actually does get a value with each iteration -- it starts at 0, and goes up by 1, one at a time
+
+for count in range(3):
+    print(f'[{count}] Hooray for Python!')

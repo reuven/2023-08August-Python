@@ -128,3 +128,10 @@ s = 'abcde'
 
 for index, one_character in enumerate(s):    # we now have *TWO* loop variables! enumerate sets both
     print(f'{index}: {one_character}')
+# example while loop
+
+x = 5
+
+while x > 0:
+    print(x)
+    x -= 1    # this means: x = x - 1, aka reduce x by 1

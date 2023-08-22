@@ -273,3 +273,4 @@ mylist[-1]  # get the final element
 len(mylist)   #how many elements are there, anyway?
 mylist[3:6
 mylist[3:6]
+mylist[3:6]  # from index 3 up to (and not including) index 6

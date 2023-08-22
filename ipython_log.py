@@ -270,3 +270,6 @@ mylist = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 mylist[0]  # get the first element
 mylist[1]  # get the 2nd element
 mylist[-1]  # get the final element
+len(mylist)   #how many elements are there, anyway?
+mylist[3:6
+mylist[3:6]

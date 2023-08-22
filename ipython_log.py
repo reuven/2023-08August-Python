@@ -479,3 +479,4 @@ for one_character in s:
         total += int(one_character)
     else:
         print('that thing aint a number dawg')
+total

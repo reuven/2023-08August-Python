@@ -343,3 +343,17 @@ s = input('Enter a string: ').strip()
 
 for one_character in s:
     print(one_character)
+vowels = []
+digits = []
+others = []
+
+s = input('Enter a string: ').strip()
+
+for one_character in s:
+    if one_character in 'aeiou':   # is it a vowel?
+        print(f'{one_character} is a vowel')
+    elif one_character.isdigit():   # is it a digit?
+        print(f'{one_character} is a digit')
+    else:
+        print(f'{one_character} is something else')
+        

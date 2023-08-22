@@ -608,3 +608,8 @@ y
 s = 'abcd'
 for index, one_character in enumerate(s):
     print(f'{index}, {one_character}')
+# what's going on with that "for" loop?
+# what are we getting with each element?
+
+for one_item in enumerate(s):
+    print(one_item)

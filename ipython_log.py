@@ -135,3 +135,8 @@ x = 5
 while x > 0:
     print(x)
     x -= 1    # this means: x = x - 1, aka reduce x by 1
+total = 0
+
+s = input('Enter a number: ')
+
+total += s

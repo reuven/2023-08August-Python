@@ -590,3 +590,8 @@ x,y,z = mylist
 x
 y
 z
+# variable swapping
+x = 111
+y = 222
+
+x,y

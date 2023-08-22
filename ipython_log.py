@@ -381,3 +381,4 @@ mylist = [10, 20, 30]
 mylist.append([40, 50, 60])  # what will happen?
 
 mylist
+len(mylist)

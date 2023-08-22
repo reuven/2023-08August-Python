@@ -399,3 +399,4 @@ mylist
 
 mylist.pop(0)    # remove the first element, and everything else moves down one index
 mylist
+30 in mylist   # will this work?

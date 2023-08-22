@@ -382,3 +382,12 @@ mylist.append([40, 50, 60])  # what will happen?
 
 mylist
 len(mylist)
+# if we want to add multiple elements to a list, then we can either use a for loop + list.append
+# or we can use += 
+
+# on a list, += runs a for loop on whatever is to our right
+
+mylist = [10, 20, 30]
+mylist += [40, 50, 60]   
+
+mylist

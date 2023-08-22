@@ -577,3 +577,6 @@ type(t)
 # if you really want a one-element tuple, just use a comma in the parentheses after the object value
 t = (10,)  
 type(t)
+# we actually don't need parentheses at all to create tuples...
+
+10,20,30

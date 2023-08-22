@@ -574,3 +574,6 @@ type(t)
 # tuples and also for combining math expressions.
 
 (2 + 3) * 4     # now we'll get 20
+# if you really want a one-element tuple, just use a comma in the parentheses after the object value
+t = (10,)  
+type(t)

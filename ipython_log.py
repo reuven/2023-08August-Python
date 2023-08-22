@@ -109,3 +109,11 @@ total = 0
 for numOfLetters in name:
     total+=1
     print(name[:total])
+# option 1 -- calculate it manually
+
+index = 0
+s = 'abcde'
+
+for one_character in s:
+    print(f'{index}: {one_character}')
+    index += 1

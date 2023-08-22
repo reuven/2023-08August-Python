@@ -184,3 +184,18 @@ for one_character in s:
     print(one_character)
 
 print('Done!')
+# let's pretend that there is no "in" operator in Python
+# I have a string, and want to know whether a character is in that string
+
+# in this version, we don't want to print the look_for character, but don't want to stop the loop, either.
+
+s = 'abcde'
+look_for = 'd'  
+
+for one_character in s:
+    if look_for == one_character:  # have we found what we want?
+        continue  # go onto the next iteration right away
+
+    print(one_character)
+
+print('Done!')

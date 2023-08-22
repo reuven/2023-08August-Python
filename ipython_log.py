@@ -406,3 +406,8 @@ s = 'abcd'
 list(s)    # I want a list, based on s
 s = 'abcd:ef:ghij'   # this looks like several fields we want to separate
 list(s)
+# how can we deal with this?
+# we can invoke the "str.split" method. It doesn't change the string (of course), but it does
+# return a new list of strings:
+
+s.split(':')   # this means: return a new list of strings, using ':' as the field separator, aka where to cut

@@ -330,3 +330,8 @@ mylist
 
 mylist.pop()
 mylist
+mylist = []    # empty list
+mylist.append(10)
+mylist.append(20)
+mylist.append(30)
+mylist

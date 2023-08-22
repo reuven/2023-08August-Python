@@ -613,3 +613,8 @@ for index, one_character in enumerate(s):
 
 for one_item in enumerate(s):
     print(one_item)
+# I could say:
+
+for t in emuerate(s):
+    key, value = t
+    print(f'{key}: {value}')

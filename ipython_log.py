@@ -68,3 +68,4 @@ for count in range(3):
 for count in range(3):
     print(f'[{count}] Hooray for Python!')
 'Hooray' * 6   # this will work!
+print('Hooray') * 6

@@ -404,3 +404,5 @@ mylist
 
 s = 'abcd'
 list(s)    # I want a list, based on s
+s = 'abcd:ef:ghij'   # this looks like several fields we want to separate
+list(s)

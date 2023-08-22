@@ -595,3 +595,8 @@ x = 111
 y = 222
 
 x,y
+# variable swapping
+x = 111
+y = 222
+
+y,x = x,y    # this is how we swap variables without a third temp variable

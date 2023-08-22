@@ -557,3 +557,6 @@ for word in sentence.split():
         output.append(word[1:] + word[0] + 'ay')
 
 print(' '.join(output))
+# creating a tuple -- usually with () and commas
+t = (10, 20, 30)
+type(t) 

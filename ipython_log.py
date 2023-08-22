@@ -145,3 +145,10 @@ total = 0
 s = input('Enter a number: ')
 
 total += int(s)   # get an int based on s, then add that to total
+total = 0
+
+while total < 100:
+    s = input('Enter a number: ')
+    total += int(s)   # get an int based on s, then add that to total
+
+print(f'total = {total}')

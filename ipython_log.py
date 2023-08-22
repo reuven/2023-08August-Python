@@ -215,3 +215,13 @@ while total < 100:
     total += int(s)   # get an int based on s, then add that to total
 
 print(f'total = {total}')
+total = 0
+
+while total < 100:
+    print(f'\tTotal is currently {total}')
+    s = input('Enter a number: ')
+
+    if s.isdigit():
+        total += int(s)   # get an int based on s, then add that to total
+
+print(f'total = {total}')

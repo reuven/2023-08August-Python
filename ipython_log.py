@@ -199,3 +199,11 @@ for one_character in s:
     print(one_character)
 
 print('Done!')
+total = 0
+
+while total < 100:
+    print(f'\tTotal is currently {total}')
+    s = input('Enter a number: ')
+    total += int(s)   # get an int based on s, then add that to total
+
+print(f'total = {total}')

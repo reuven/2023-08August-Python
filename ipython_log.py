@@ -265,3 +265,7 @@ total
 # around the outside of the list, we use []
 
 mylist = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+# there are *many* aspects of lists that are similar (or identical) to strings
+
+mylist[0]  # get the first element
+mylist[1]  # get the 2nd element

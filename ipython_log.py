@@ -570,3 +570,7 @@ type(t)
 # tuples and also for combining math expressions.
 
 2 + 3 * 4     # 
+# you *can* have a tuple with a single element. But the problem is that we use () for creating
+# tuples and also for combining math expressions.
+
+(2 + 3) * 4     # now we'll get 20

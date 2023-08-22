@@ -274,3 +274,7 @@ len(mylist)   #how many elements are there, anyway?
 mylist[3:6
 mylist[3:6]
 mylist[3:6]  # from index 3 up to (and not including) index 6
+# use a for loop on a list:
+
+for one_item in mylist:
+    print(one_item)

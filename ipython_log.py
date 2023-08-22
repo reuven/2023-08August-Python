@@ -11,3 +11,7 @@ print(s[3])
 print(s[4])
 for one_character in s:
     print(one_character)
+print('Before')
+for one_character in s:
+    print(one_character)
+print('After')    

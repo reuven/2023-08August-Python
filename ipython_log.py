@@ -584,3 +584,9 @@ mylist = [10, 20, 30]
 
 x = mylist
 x
+# but what about here?
+# I'll use a tuple of variables on the left
+x,y,z = mylist
+x
+y
+z

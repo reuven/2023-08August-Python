@@ -225,3 +225,10 @@ while total < 100:
         total += int(s)   # get an int based on s, then add that to total
 
 print(f'total = {total}')
+while True:     # this is scary looking -- it's an infinite loop!
+    name = input('Enter your name: ').strip()
+
+    if name == '':   # empty string (not to be confused with ' ', which has a space in it)
+        break
+
+    print(f'Hello, {name}!')

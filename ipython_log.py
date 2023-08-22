@@ -560,3 +560,7 @@ print(' '.join(output))
 # creating a tuple -- usually with () and commas
 t = (10, 20, 30)
 type(t) 
+t = (10, 20)
+type(t)
+t = (10)
+type(t)

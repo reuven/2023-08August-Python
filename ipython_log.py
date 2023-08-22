@@ -69,3 +69,12 @@ for count in range(3):
     print(f'[{count}] Hooray for Python!')
 'Hooray' * 6   # this will work!
 print('Hooray') * 6
+name = 'Reuven'
+
+# how can I print a name triangle?
+print(name[:1])   # index 0
+print(name[:2])   # indexes 0+1
+print(name[:3])   # indexes 0+1+2
+print(name[:4])   # indexes 0+1+2+3
+print(name[:5])   # indexes 0+1+2+3+4
+print(name[:6])   # indexes 0+1+2+3+4+5

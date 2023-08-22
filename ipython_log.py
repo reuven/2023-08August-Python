@@ -519,3 +519,5 @@ mylist = ['abcd', 'ef', 'ghij']
 
 ' '.join(mylist)  # this returns a new string, containing mylist's elements 
 '*'.join(mylist)
+'\n'.join(mylist)
+print('\n'.join(mylist))

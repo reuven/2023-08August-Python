@@ -82,3 +82,7 @@ print(name[:6])   # indexes 0+1+2+3+4+5
 
 for index in range(5):
     print(name[:index])
+# how can I accomplish this with a for loop?
+
+for index in range(6):
+    print(name[:index])

@@ -285,3 +285,11 @@ total = 0
 for one_temp in high_temps:
     total += one_temp
 total    
+high_temps = [34, 33, 33, 33, 34, 32, 32, 33, 35]
+
+# this is a list of integers
+total = 0
+for one_temp in high_temps:
+    total += one_temp
+
+total / len(high_temps)

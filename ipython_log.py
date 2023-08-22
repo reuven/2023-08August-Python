@@ -391,3 +391,7 @@ mylist = [10, 20, 30]
 mylist += [40, 50, 60]   
 
 mylist
+# I can remove an element from the end with list.pop:
+
+mylist.pop()
+mylist

@@ -325,3 +325,7 @@ mylist
 
 mylist.append(60)   # this means: add the integer 60 as a new element to the end of the list
 mylist
+# how can I remove an element? Easiest way is with the list.pop method, which removes something
+# from the end of the list, and returns it
+
+mylist.pop()

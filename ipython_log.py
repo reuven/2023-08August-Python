@@ -421,3 +421,7 @@ s.split(' ')
 # what about this:
 s = 'this is   a bunch of  words   for my   course'
 s.split(' ')
+# what we want is: cut when Python sees 1 or more whitespace characters in a row -- space,
+# tab (\t), newline (\n), carriage return (\r), and vertical tab (\v)
+
+s.split()    # no argument to s.split does exactly this!

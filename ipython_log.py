@@ -412,3 +412,5 @@ list(s)
 
 s.split(':')   # this means: return a new list of strings, using ':' as the field separator, aka where to cut
 s.split('d')   # weird, but it'll work!
+s = 'abcd ef ghij'
+s.split(' ')

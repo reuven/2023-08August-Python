@@ -248,3 +248,6 @@ while True:
         total += int(one_character)
 
 print(f'total = {total}')
+total = 5
+
+total += '3'   # here, I'm trying to add a string 

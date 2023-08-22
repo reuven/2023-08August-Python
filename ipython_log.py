@@ -518,3 +518,4 @@ mylist = ['abcd', 'ef', 'ghij']
 # the string that goes between list elements -- I call this the "glue."
 
 ' '.join(mylist)  # this returns a new string, containing mylist's elements 
+'*'.join(mylist)

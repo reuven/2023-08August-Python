@@ -251,3 +251,10 @@ print(f'total = {total}')
 total = 5
 
 total += '3'   # here, I'm trying to add a string 
+total = 5
+
+total += int('3')  # now we're adding the int based on the digit '3' which is a string
+total = 5
+
+total += int('3')  # now we're adding the int based on the digit '3' which is a string
+total

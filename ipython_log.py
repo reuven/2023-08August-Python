@@ -58,3 +58,7 @@ for count in range(2):
 
 for count in range(0):
     print('Hooray for Python!')
+# this is how you iterate a certain number of times!
+
+for count in range(3):
+    print('Hooray for Python!')

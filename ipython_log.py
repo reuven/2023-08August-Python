@@ -488,3 +488,5 @@ t = analyze_word('hello')
 t
 # when we get a tuple back, it's very common to grab the parts of it with unpacking
 is_lc, length = analyze_word('hello')
+is_lc
+length

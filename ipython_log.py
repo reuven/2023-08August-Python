@@ -121,3 +121,7 @@ def calc(n1, op, n2):
         result = f'Illegal operator {op}'
 
     return f'{n1} {op} {n2} = {result}'   # return isn't a function -- no (), but they don't hurt
+# parameters: n1,   op,  n2
+# arguments:  10     '+'   3
+
+calc(10, '+', 3)

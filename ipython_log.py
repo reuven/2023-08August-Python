@@ -24,3 +24,7 @@ calc()
 calc()
 def calc():
     print('2 + 3 = 4')
+calc()
+def calc():
+    print('2 + 2 = 4')
+calc()

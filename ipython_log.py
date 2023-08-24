@@ -636,3 +636,4 @@ count_characters('hello out there')
 s = 'abcd efgh ijkl'
 
 s.split('f')   # str.split always returns a list of strings, divided at 'f'
+s.split()      # default str.split argument is "all whitespace"

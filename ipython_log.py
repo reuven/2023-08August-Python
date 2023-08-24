@@ -46,3 +46,5 @@ def calc():
     print(f'{n1} {op} {n2} = {result}')
 def hello():
     return f'Hello out there!'
+print('Hello out there')
+hello()

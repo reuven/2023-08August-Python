@@ -153,3 +153,4 @@ def mysum(numbers):
 mysum([10, 20, 30, 40, 50])
 mysum([1,2,3,4,5])
 mysum()  # no arguments? No way...
+mysum(10, 20, 30, 40, 50)  # here, I'm passing 5 integers *not* one list

@@ -517,3 +517,15 @@ add(5, 4)
 # parameters: first second
 # arguments:   5      4
 add(5, 4)
+# when we define the function, we tell Python what the default value should be
+# for second, if we don't pass it a value
+
+def add(first, second=10):
+    return first + second
+# parameters: first second
+# arguments:   5      4
+add(5, 4)
+# parameters: first  second
+# arguments:   5   
+
+add(5)

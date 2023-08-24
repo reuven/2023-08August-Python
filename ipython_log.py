@@ -368,3 +368,20 @@ def finalvers(yourinput):
         return mydict
 
 finalvers('hello! 123')
+def finalvers(yourinput):
+    mydict= {'digits':0 , 'vowels':0, 'others':0}
+    
+    for words in yourinput:
+        if words.isdigit():
+            mydict['digits']+= 1
+            
+        elif words in 'aeiou':
+            mydict['vowels'] += 1
+            
+        else:
+            mydict['others'] += 1
+            
+        
+        return mydict
+
+finalvers('ello! 123')

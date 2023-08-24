@@ -125,3 +125,6 @@ def calc(n1, op, n2):
 # arguments:  10     '+'   3
 
 calc(10, '+', 3)
+# what happens if I call calc now with zero arguments (like we used to do?)
+
+calc()  

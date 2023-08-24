@@ -406,3 +406,5 @@ finalvers('hello! 123')
 
 help(len)    # we don't execute len. We just pass it (the function object) to "help"
 help(str.lower)
+def hello(name):
+    return f'Hello, {name}!'

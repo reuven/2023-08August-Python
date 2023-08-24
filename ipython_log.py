@@ -484,3 +484,5 @@ def analyze_word(one_word):
 
     return is_lowercase, len(one_word)   # this is a totally acceptable tuple
 analyze_word('hello')
+t = analyze_word('hello')
+t

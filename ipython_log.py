@@ -670,3 +670,9 @@ for i in range(10):
     x = i * 5
 
 print(x)
+def factorical(n):
+    # base case
+    if n <= 1:
+        return 1
+
+    return n * factorical(n - 1)

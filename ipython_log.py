@@ -68,3 +68,4 @@ def calc():
     return f'{n1} {op} {n2} = {result}'   # return isn't a function -- no (), but they don't hurt
 calc()
 x = calc()
+print(x)

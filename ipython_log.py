@@ -80,3 +80,11 @@ def hello(name):                # define hello with one parameter, called "name"
     return f'Hello, {name}!'    # we can assume that "name" was assigned a value via an argument
 
 print(hello('Reuven'))
+# I define the function, including naming its parameters
+def hello(first_name, last_name):
+    return f'Hello, {first_name} {last_name}!'
+
+# I call the function, passing values in the parentheses
+hello('Reuven', 'Lerner')
+
+# if I were to say hello(first_name, last_name), Python would say -- what are those?

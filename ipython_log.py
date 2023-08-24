@@ -493,3 +493,6 @@ length
 def get_status():
     return 200, 50, {'timing':30, 'logged_in': False}
 get_status()
+status_code, bytes_returned, info_dict = get_status()
+status_code
+bytes_returned

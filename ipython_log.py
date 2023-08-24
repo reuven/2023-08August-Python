@@ -420,3 +420,4 @@ def hello(name):
     returns: a nice and friendly string
     '''
     return f'Hello, {name}!'
+help(name)

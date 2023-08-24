@@ -633,3 +633,6 @@ count_characters('hello out there')
 # arguments:  'hello out there'   'aeiou'
 
 count_characters('hello out there')
+s = 'abcd efgh ijkl'
+
+s.split('f')   # str.split always returns a list of strings, divided at 'f'

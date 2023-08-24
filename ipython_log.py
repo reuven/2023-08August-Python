@@ -533,3 +533,5 @@ add(5)
 # arguments:   5       10
 
 add(5)
+def add(first=10, second):
+    return first + second

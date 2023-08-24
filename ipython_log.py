@@ -408,3 +408,4 @@ help(len)    # we don't execute len. We just pass it (the function object) to "h
 help(str.lower)
 def hello(name):
     return f'Hello, {name}!'
+help(hello)

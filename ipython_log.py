@@ -287,3 +287,26 @@ def highest_and_lowest(numbers):
     return [highest, lowest]
 highest_and_lowest([10, 20, 30])
 highest_and_lowest([10, 20, 30, -5, 40, 25])
+# older version
+
+# vowels, digits, and others
+
+vowels = []
+digits = []
+others = []
+
+s = input('Enter string: ').strip()
+
+for one_character in s:
+    if one_character.isdigit():
+        digits.append(one_character)
+
+    elif one_character in 'aeiou':
+        vowels.append(one_character)
+
+    else:
+        others.append(one_character)
+
+print(vowels)
+print(digits)
+print(others)

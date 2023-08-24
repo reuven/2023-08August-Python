@@ -161,3 +161,5 @@ mysum(numbers=[2,4,6,8])
 mysum(numbers=[2,4,6,8])
 def hello(name):
     return f'Hello, {name}!'
+# we've seen that I can call this function with a string
+hello('world')

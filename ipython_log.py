@@ -550,3 +550,27 @@ s = '    a   b   c  d   '
 s.strip()
 # I can tell it to remove all whitespace, plus a nd d from their usual 
 s.strip(' a d')
+# earlier, we together developed count_characters
+
+# I want you to modify this function such that "chars" has a default of vowels, but
+# you can pass any string to have those characters counted. So pass 'aeiou' to have vowels counted, etc.
+
+def count_characters(s, chars):
+    # setup
+    output = {}
+
+    # set up output to have keys from chars, and values will just be 0
+    for one_character in chars:
+        output[one_character] = 0
+
+    # calculation
+    # go through our input string, s
+    for one_character in s:
+
+    # if the character appears in our dictionary
+        if one_character in output:
+    # then bump up the character by 1.
+            output[one_character] += 1
+
+    # report 
+    return output

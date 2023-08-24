@@ -22,3 +22,5 @@ def calc():
     print(f'{n1} {op} {n2} = {result}')
 calc()
 calc()
+def calc():
+    print('2 + 3 = 4')

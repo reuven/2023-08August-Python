@@ -422,3 +422,5 @@ def hello(name):
     return f'Hello, {name}!'
 help(name)
 help(hello)
+s = 'abcd'
+print(s)

@@ -128,3 +128,9 @@ calc(10, '+', 3)
 # what happens if I call calc now with zero arguments (like we used to do?)
 
 calc()  
+# there is another kind of argument -- keyword arguments
+
+# parameters: first_name, last_name
+# arguments:  'Reuven', 'Lerner'   (positional)
+
+hello('Reuven', 'Lerner')

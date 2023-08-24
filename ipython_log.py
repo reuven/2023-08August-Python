@@ -653,3 +653,12 @@ def myfunc():
 print(f'Before, x = {x}')  # we aren't in a function... let's get the global x!
 myfunc()
 print(f'After, x = {x}')   # we again aren't in a function .. get the global x again
+x = 100
+
+def myfunc():
+    x = 200
+    print(f'In myfunc, x = {x}')  
+
+print(f'Before, x = {x}')  
+myfunc()
+print(f'After, x = {x}')   

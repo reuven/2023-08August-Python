@@ -629,3 +629,7 @@ def count_characters(s, chars='aeiou'):    # this means: chars has a default val
     return output
 count_characters('hello out there', 'ghijklm')
 count_characters('hello out there')
+# parameters:    s                 chars
+# arguments:  'hello out there'   'aeiou'
+
+count_characters('hello out there')

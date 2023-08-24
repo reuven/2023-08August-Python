@@ -503,3 +503,11 @@ def add(first, second):
 
 add(10, 3)
 add(10)
+# what if I want to have the option of passing a second argument.. or of not doing so?
+
+# this where default values come in
+
+# parameters: first second
+# argumentse:   10     3
+
+add(10, 3)

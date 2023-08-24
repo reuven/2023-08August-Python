@@ -350,3 +350,4 @@ def dvo(s):
     
     # report
     return counts
+dvo('hello out there! 1234')

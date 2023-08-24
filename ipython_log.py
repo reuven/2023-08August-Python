@@ -200,3 +200,28 @@ def count_characters(s, chars):
     return output
 count_characters('hello out there', 'aeiou')
 count_characters('hello out there', 'aeiou')
+# start very very small
+# take very very small steps
+# each step should take slowly in the direction of a full solution
+# it's OK to be very optimistic, especially at the beginning
+
+def count_characters(s, chars):
+    # setup
+    output = {}
+
+    # set up output to have keys from chars, and values will just be 0
+    for one_character in chars:
+        output[one_character] = 0
+
+    # calculation
+    # go through our input string, s
+    for one_character in s:
+
+    # if the character appears in our dictionary
+        if one_character in output:
+    # then bump up the character by 1.
+            output[one_character] += 1
+
+    # report 
+    return output
+count_characters('hello out there', 'aeiou')

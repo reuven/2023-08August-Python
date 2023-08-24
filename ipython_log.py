@@ -457,3 +457,4 @@ def dvo(s):
     
     # report
     return counts
+dvo('whatever 123')

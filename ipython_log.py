@@ -97,3 +97,10 @@ def calc(n1, op, n2):
         result = f'Illegal operator {op}'
 
     return f'{n1} {op} {n2} = {result}'   # return isn't a function -- no (), but they don't hurt
+# our "calc" function now expects to get three arguments
+# those three arguments will be assigned to our three parameters (n1, op, n2)
+
+# By the time we get to the "if" in the function, n1, op, and n2 have
+# the same values as they would have with input. This is just more elegant
+
+calc(10, '+', 3)

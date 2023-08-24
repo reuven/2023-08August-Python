@@ -150,3 +150,5 @@ def mysum(numbers):
         total += one_number
 
     return total
+mysum([10, 20, 30, 40, 50])
+mysum([1,2,3,4,5])

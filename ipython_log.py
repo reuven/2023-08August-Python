@@ -535,3 +535,8 @@ add(5)
 add(5)
 def add(first=10, second):
     return first + second
+def add(first=3, second=4):
+    return first + second
+
+add(10, 6)
+add(10)

@@ -74,3 +74,4 @@ def hello():
 
     return f'Hello, {name}!'
 hello()
+greeting = hello()

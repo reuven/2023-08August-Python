@@ -165,3 +165,4 @@ def hello(name):
 hello('world')
 # what happens if I call this function with an integer?
 hello(5)
+hello([10, 20, 30])

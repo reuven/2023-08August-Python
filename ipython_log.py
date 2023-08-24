@@ -514,3 +514,6 @@ add(10, 3)
 def add(first, second=10):
     return first + second
 add(5, 4)
+# parameters: first second
+# arguments:   5      4
+add(5, 4)

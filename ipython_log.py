@@ -598,3 +598,5 @@ def count_characters(s, chars):
 
     # report 
     return output
+count_characters('hello out there')
+count_characters('hello out there', 'aeiou')

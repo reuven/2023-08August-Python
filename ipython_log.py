@@ -236,3 +236,19 @@ def highest_and_lowest(numbers):
     return [highest, lowest]
 highest_and_lowest()
 highest_and_lowest([10, 20, 30])
+def highest_and_lowest(numbers):
+    # setup
+    highest = -100_000_000_000
+    lowest = 100_000_000_000
+
+    # calculation
+    for one_number in numbers:
+        if one_number > highest:    # is the current number higher than highest?
+            highest = one_number    # if so, make this number the highest!
+
+        if one_number < lowest:
+            lowest = one_number
+
+    # report
+    return [highest, lowest]
+highest_and_lowest([10, 20, 30])

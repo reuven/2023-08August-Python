@@ -405,3 +405,4 @@ finalvers('hello! 123')
 # we can use the "help" function in Jupyter
 
 help(len)    # we don't execute len. We just pass it (the function object) to "help"
+help(str.lower)

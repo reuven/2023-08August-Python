@@ -459,3 +459,5 @@ def dvo(s):
     return counts
 dvo('whatever 123')
 help(dvo)  # we don't execute the function
+import random
+help(random.randint)   # the function we used on Monday..

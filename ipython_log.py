@@ -143,3 +143,10 @@ hello('Reuven', 'Lerner')
 hello(first_name='Reuven', last_name='Lerner')
 hello(last_name='Lerner', first_name='Reuven')
 hello(las_name='Lerner', firsttt_name='Reuven')
+def mysum(numbers):
+    total = 0
+
+    for one_number in numbers:
+        total += one_number
+
+    return total

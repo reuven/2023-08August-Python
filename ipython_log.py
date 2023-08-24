@@ -152,3 +152,4 @@ def mysum(numbers):
     return total
 mysum([10, 20, 30, 40, 50])
 mysum([1,2,3,4,5])
+mysum()  # no arguments? No way...

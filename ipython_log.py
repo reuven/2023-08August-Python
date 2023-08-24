@@ -21,3 +21,4 @@ def calc():
 
     print(f'{n1} {op} {n2} = {result}')
 calc()
+calc()

@@ -424,3 +424,6 @@ help(name)
 help(hello)
 s = 'abcd'
 print(s)
+s = 'abcd
+efgh'
+print(s)

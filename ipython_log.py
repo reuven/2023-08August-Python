@@ -662,3 +662,11 @@ def myfunc():
 print(f'Before, x = {x}')  
 myfunc()
 print(f'After, x = {x}')   
+# many people believe that indentation in Python = local variables
+
+x = 100
+
+for i in range(10):
+    x = i * 5
+
+print(x)

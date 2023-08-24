@@ -44,3 +44,5 @@ def calc():
         result = f'Illegal operator {op}'
 
     print(f'{n1} {op} {n2} = {result}')
+def hello():
+    return f'Hello out there!'

@@ -48,3 +48,5 @@ def hello():
     return f'Hello out there!'
 print('Hello out there')
 hello()
+# get the value back from hello, and then print it
+print(hello())

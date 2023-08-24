@@ -225,3 +225,13 @@ def count_characters(s, chars):
     # report 
     return output
 count_characters('hello out there', 'aeiou')
+def highest_and_lowest(numbers):
+    # setup
+    highest = 100_000_000_000
+    lowest = -100_000_000_000
+
+    # calculation
+
+    # report
+    return [highest, lowest]
+highest_and_lowest()

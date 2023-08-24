@@ -427,3 +427,6 @@ print(s)
 s = 'abcd
 efgh'
 print(s)
+s = '''abcd
+efgh'''
+print(s)

@@ -545,3 +545,6 @@ add()
 # we can use a keyword argument
 
 add(second=10)
+s = '    a   b   c  d   '
+
+s.strip()

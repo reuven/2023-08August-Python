@@ -498,3 +498,7 @@ status_code
 bytes_returned
 info_dict
 info_dict['timing']
+def add(first, second):
+    return first + second
+
+add(10, 3)

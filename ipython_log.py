@@ -676,3 +676,4 @@ def factorical(n):
         return 1
 
     return n * factorical(n - 1)
+factorical(5)

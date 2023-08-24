@@ -166,3 +166,4 @@ hello('world')
 # what happens if I call this function with an integer?
 hello(5)
 hello([10, 20, 30])
+hello(hello)   # yes, I can pass a function to itself as an argument!

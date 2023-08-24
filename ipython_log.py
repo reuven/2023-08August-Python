@@ -163,3 +163,5 @@ def hello(name):
     return f'Hello, {name}!'
 # we've seen that I can call this function with a string
 hello('world')
+# what happens if I call this function with an integer?
+hello(5)

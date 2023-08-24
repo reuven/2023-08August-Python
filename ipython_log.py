@@ -69,3 +69,7 @@ def calc():
 calc()
 x = calc()
 print(x)
+def hello():
+    name = input('Enter your name: ').strip()
+
+    return f'Hello, {name}!'

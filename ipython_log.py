@@ -602,3 +602,30 @@ count_characters('hello out there')
 count_characters('hello out there', 'aeiou')
 count_characters('hello out there', 'asdfg')
 count_characters('hello out there', 'ghijklm')
+count_characters('hello out there')
+# earlier, we together developed count_characters
+
+# I want you to modify this function such that "chars" has a default of vowels, but
+# you can pass any string to have those characters counted. So pass 'aeiou' to have vowels counted, etc.
+
+def count_characters(s, chars='aeiou'):    # this means: chars has a default value of 'aeiou'
+    # setup
+    output = {}
+
+    # set up output to have keys from chars, and values will just be 0
+    for one_character in chars:
+        output[one_character] = 0
+
+    # calculation
+    # go through our input string, s
+    for one_character in s:
+
+    # if the character appears in our dictionary
+        if one_character in output:
+    # then bump up the character by 1.
+            output[one_character] += 1
+
+    # report 
+    return output
+count_characters('hello out there', 'ghijklm')
+count_characters('hello out there')

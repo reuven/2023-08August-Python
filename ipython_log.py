@@ -409,3 +409,14 @@ help(str.lower)
 def hello(name):
     return f'Hello, {name}!'
 help(hello)
+# rewritten with a docstring
+
+def hello(name):
+    '''
+    hello is a friendly function that returns a greeting with your name.
+
+    expects: a string, the name of the user (to be used in the output)
+    modifies: - 
+    returns: a nice and friendly string
+    '''
+    return f'Hello, {name}!'

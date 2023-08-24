@@ -252,3 +252,4 @@ def highest_and_lowest(numbers):
     # report
     return [highest, lowest]
 highest_and_lowest([10, 20, 30])
+highest_and_lowest([10, 20, 30, -5, 40, 25])

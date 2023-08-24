@@ -181,3 +181,21 @@ def count_characters(s, chars):
     # report 
     return output
 count_characters('hello out there', 'aeiou')
+# start very very small
+# take very very small steps
+# each step should take slowly in the direction of a full solution
+# it's OK to be very optimistic, especially at the beginning
+
+def count_characters(s, chars):
+    # setup
+    output = {}
+
+    # set up output to have keys from chars, and values will just be 0
+    for one_character in chars:
+        output[one_character] = 0
+
+    # calculation
+
+    # report 
+    return output
+count_characters('hello out there', 'aeiou')

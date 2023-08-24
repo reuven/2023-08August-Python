@@ -76,3 +76,7 @@ def hello():
 hello()
 greeting = hello()
 print(greeting)
+def hello(name):                # define hello with one parameter, called "name"
+    return f'Hello, {name}!'    # we can assume that "name" was assigned a value via an argument
+
+print(hello('Reuven'))

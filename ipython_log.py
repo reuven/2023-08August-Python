@@ -458,3 +458,4 @@ def dvo(s):
     # report
     return counts
 dvo('whatever 123')
+help(dvo)  # we don't execute the function

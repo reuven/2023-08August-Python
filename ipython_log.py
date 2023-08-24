@@ -88,3 +88,12 @@ def hello(first_name, last_name):
 hello('Reuven', 'Lerner')
 
 # if I were to say hello(first_name, last_name), Python would say -- what are those?
+def calc(n1, op, n2):
+    if op == '+':
+        result = n1 + n2
+    elif op == '-':
+        result = n1 - n2
+    else:
+        result = f'Illegal operator {op}'
+
+    return f'{n1} {op} {n2} = {result}'   # return isn't a function -- no (), but they don't hurt

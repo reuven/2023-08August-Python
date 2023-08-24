@@ -502,3 +502,4 @@ def add(first, second):
     return first + second
 
 add(10, 3)
+add(10)

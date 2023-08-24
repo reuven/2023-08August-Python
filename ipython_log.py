@@ -111,3 +111,4 @@ calc(10, '+', 3)
 # the same values as they would have with input. This is just more elegant
 
 answer = calc(10, '+', 3)
+print(answer)

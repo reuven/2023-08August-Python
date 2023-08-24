@@ -167,3 +167,16 @@ hello('world')
 hello(5)
 hello([10, 20, 30])
 hello(hello)   # yes, I can pass a function to itself as an argument!
+# start very very small
+# take very very small steps
+# each step should take slowly in the direction of a full solution
+# it's OK to be very optimistic, especially at the beginning
+
+def count_characters(s, chars):
+    # setup
+    output = {}
+
+    # calculation
+
+    # report 
+    return output

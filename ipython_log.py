@@ -540,3 +540,4 @@ def add(first=3, second=4):
 
 add(10, 6)
 add(10)
+add()

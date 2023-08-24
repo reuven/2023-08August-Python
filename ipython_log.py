@@ -490,3 +490,6 @@ t
 is_lc, length = analyze_word('hello')
 is_lc
 length
+def get_status():
+    return 200, 50, {'timing':30, 'logged_in': False}
+get_status()

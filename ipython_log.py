@@ -496,3 +496,5 @@ get_status()
 status_code, bytes_returned, info_dict = get_status()
 status_code
 bytes_returned
+info_dict
+info_dict['timing']

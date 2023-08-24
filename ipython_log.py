@@ -637,3 +637,11 @@ s = 'abcd efgh ijkl'
 
 s.split('f')   # str.split always returns a list of strings, divided at 'f'
 s.split()      # default str.split argument is "all whitespace"
+x = 100
+
+def myfunc():
+    print(f'In myfunc, x = {x}')
+
+print(f'Before, x = {x}')
+myfunc()
+print(f'After, x = {x}')

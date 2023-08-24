@@ -600,3 +600,4 @@ def count_characters(s, chars):
     return output
 count_characters('hello out there')
 count_characters('hello out there', 'aeiou')
+count_characters('hello out there', 'asdfg')

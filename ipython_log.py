@@ -73,3 +73,4 @@ def hello():
     name = input('Enter your name: ').strip()
 
     return f'Hello, {name}!'
+hello()

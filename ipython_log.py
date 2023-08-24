@@ -330,3 +330,23 @@ def dvo(s):
     return counts
 dvo('hello out there!')
 dvo('hello out there! 1234')
+# what if we do want to have lists of characters, and not counts of characters?
+
+def dvo(s):
+    # setup
+    counts = {'vowels':[],
+              'digits':[],
+              'others':[]}
+    
+    for one_character in s:
+        if one_character.isdigit():
+            counts['digits'].append(one_character)
+    
+        elif one_character in 'aeiou':
+            counts['vowels'].append(one_character)
+    
+        else:
+            counts['others'].append(one_character)
+    
+    # report
+    return counts

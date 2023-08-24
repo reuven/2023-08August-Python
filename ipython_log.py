@@ -548,3 +548,5 @@ add(second=10)
 s = '    a   b   c  d   '
 
 s.strip()
+# I can tell it to remove all whitespace, plus a nd d from their usual 
+s.strip(' a d')

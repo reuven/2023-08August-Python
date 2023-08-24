@@ -104,3 +104,10 @@ def calc(n1, op, n2):
 # the same values as they would have with input. This is just more elegant
 
 calc(10, '+', 3)
+# our "calc" function now expects to get three arguments
+# those three arguments will be assigned to our three parameters (n1, op, n2)
+
+# By the time we get to the "if" in the function, n1, op, and n2 have
+# the same values as they would have with input. This is just more elegant
+
+answer = calc(10, '+', 3)

@@ -134,3 +134,10 @@ calc()
 # arguments:  'Reuven', 'Lerner'   (positional)
 
 hello('Reuven', 'Lerner')
+#  I can do this in another way, with keyword arguments
+# keyword arguments all have the form of NAME=VALUE, including the =
+
+# parameters:  first_name     last_name
+# arguments:     'Reuven'        'Lerner'
+
+hello(first_name='Reuven', last_name='Lerner')

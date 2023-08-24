@@ -476,3 +476,11 @@ def analyze_word(one_word):
         is_lowercase = False
 
     return is_lowercase, len(one_word)   # this is a totally acceptable tuple
+def analyze_word(one_word):
+    if one_word[0] == one_word[0].lower():
+        is_lowercase = True
+    else:
+        is_lowercase = False
+
+    return is_lowercase, len(one_word)   # this is a totally acceptable tuple
+analyze_word('hello')

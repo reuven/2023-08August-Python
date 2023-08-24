@@ -430,3 +430,30 @@ print(s)
 s = '''abcd
 efgh'''
 print(s)
+def dvo(s):
+    '''
+    dvo: counts the digits, vowels, and others in a string
+
+    Expects: An argument of a string
+    Modifies: -
+    Returns: A dictionary with three keys (vowels, digits, others) and the count of 
+        each type of character in the dict values.
+    '''
+    
+    # setup
+    counts = {'vowels':0,
+              'digits':0,
+              'others':0}
+    
+    for one_character in s:
+        if one_character.isdigit():
+            counts['digits'] += 1
+    
+        elif one_character in 'aeiou':
+            counts['vowels'] += 1
+    
+        else:
+            counts['others'] += 1
+    
+    # report
+    return counts

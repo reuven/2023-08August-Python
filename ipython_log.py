@@ -79,3 +79,4 @@ def count_punctuation(s):
 normal_punctuation
 count_punctuation
 count_punctuation('hello out there!')
+count_punctuation('hello out there?!?')

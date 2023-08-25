@@ -172,3 +172,4 @@ mymod.x
 mymod.y
 mymod.hello('world')
 import mymod
+dir(mymod)

@@ -92,3 +92,4 @@ def count_punctuation(s):
             total += 1
     
     print(total)
+count_punctuation('hello! hello?')

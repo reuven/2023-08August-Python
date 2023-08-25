@@ -93,3 +93,13 @@ def count_punctuation(s):
     
     print(total)
 count_punctuation('hello! hello?')
+# let's assume that you use randint in your module.
+# you could say
+
+from random import randint
+
+# what if we have another function variable whose name is the same? Then we will have a namespace collsion!
+
+# First: This is why namespaces exist, so we can work without having to worry about variable names colliding.
+# BUT I've heard from companies where basically outlaw the use of "from .. import" because it leads to great
+# ambiguity, that the names are no longer conextualized.

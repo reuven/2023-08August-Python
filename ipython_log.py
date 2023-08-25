@@ -182,3 +182,5 @@ littlemod.greet('Reuven')
 littlemod.hello('Reuven')
 littlemod.greet('Reuven')
 dir(littlemod)
+import littlemod
+dir(littlemod)

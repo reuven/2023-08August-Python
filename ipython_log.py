@@ -139,3 +139,5 @@ from glob import glob
 pattern = '*.txt'
 
 glob(pattern)
+for one_filename in glob(pattern):
+    print(one_filename)

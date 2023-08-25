@@ -134,3 +134,8 @@ import glob
 pattern = '*.txt'
 
 glob.glob(pattern)
+from glob import glob
+
+pattern = '*.txt'
+
+glob(pattern)

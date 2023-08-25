@@ -23,3 +23,13 @@ for one_character in s:
         total += 1
 
 print(total)
+# given a string, count the punctuation marks
+import string
+s = 'He is really a what?!?'
+total = 0
+
+for one_character in s:
+    if one_character in string.punctuation:
+        total += 1
+
+print(total)

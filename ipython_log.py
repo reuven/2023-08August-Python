@@ -141,3 +141,5 @@ pattern = '*.txt'
 glob(pattern)
 for one_filename in glob(pattern):
     print(one_filename)
+for one_filename in glob(pattern):
+    print(open(one_filename).readline())

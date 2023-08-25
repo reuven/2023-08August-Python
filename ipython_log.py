@@ -228,3 +228,4 @@ counts = collections.Counter(s)
 
 for key, value in counts.items():
     print(f'{key}: {value}')
+get_ipython().system('ls *.txt')

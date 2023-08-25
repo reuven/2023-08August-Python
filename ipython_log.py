@@ -143,3 +143,6 @@ for one_filename in glob(pattern):
     print(one_filename)
 for one_filename in glob(pattern):
     print(open(one_filename).readline())
+for one_filename in glob(pattern):
+    print(one_filename)
+    print(f'\t{open(one_filename).readline()}')

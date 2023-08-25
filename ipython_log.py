@@ -39,3 +39,28 @@ random.randint(0, 100)
 # I can't right now:
 
 randint
+# I can you randint, only under the namespace of "random"
+# If want to call randint by itself, rather than via its module, can I?
+
+from random import randint 
+
+# This makes it possible to invoke "randint" without "random".
+
+randint(0, 100)
+
+# I can you randint, only under the namespace of "random"
+# If want to call randint by itself, rather than via its module, can I?
+
+from random import randint 
+
+# This makes it possible to invoke "randint" without "random".
+
+randint(0, 100)
+# I can you randint, only under the namespace of "random"
+# If want to call randint by itself, rather than via its module, can I?
+
+from random import randint 
+
+# This makes it possible to invoke "randint" without "random".
+
+randint(0, 100)

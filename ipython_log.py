@@ -178,3 +178,5 @@ import mymod
 import mymod
 import littlemod
 littlemod.name
+littlemod.greet('Reuven')
+littlemod.hello('Reuven')

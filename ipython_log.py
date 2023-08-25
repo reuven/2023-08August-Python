@@ -33,3 +33,4 @@ for one_character in s:
         total += 1
 
 print(total)
+random.randint(0, 100)

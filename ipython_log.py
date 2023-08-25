@@ -122,3 +122,7 @@ r
 random is r
 import numpy as np
 import pandas as pd
+# aliases can be conventions
+
+import numpy as np
+import pandas as pd

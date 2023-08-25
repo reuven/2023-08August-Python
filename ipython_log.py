@@ -120,3 +120,5 @@ import random as r   # the idea is that "r" is an alias to our random module.
 random
 r
 random is r
+import numpy as np
+import pandas as pd

@@ -212,3 +212,10 @@ import collections
 # I could also say: from collections import Counter
 
 s
+# collections.Counter means -- module collections, class Counter
+
+import collections
+
+# I could also say: from collections import Counter
+
+collections.Counter(s)

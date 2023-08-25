@@ -184,3 +184,5 @@ littlemod.greet('Reuven')
 dir(littlemod)
 import littlemod
 dir(littlemod)
+littlemod.greet('Reuven')
+littlemod.greet('someone else')

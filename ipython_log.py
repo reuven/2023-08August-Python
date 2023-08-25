@@ -80,3 +80,15 @@ normal_punctuation
 count_punctuation
 count_punctuation('hello out there!')
 count_punctuation('hello out there?!?')
+# let's use from..import syntax now
+
+from string import punctuation
+
+def count_punctuation(s):
+    total = 0
+    
+    for one_character in s:
+        if one_character in punctuation:
+            total += 1
+    
+    print(total)

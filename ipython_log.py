@@ -170,3 +170,4 @@ dir(mymod)
 
 mymod.x
 mymod.y
+mymod.hello('world')

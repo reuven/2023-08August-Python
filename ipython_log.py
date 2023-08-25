@@ -160,3 +160,6 @@ import mymod
 import mymod
 type(mymod)
 mymod
+# what was defined on this module? Let's check its attributes with "dir"
+
+dir(mymod)

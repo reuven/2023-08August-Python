@@ -151,3 +151,4 @@ for one_filename in glob(pattern):
     for one_line in open(one_filename):
         print(one_line)
         break
+import mymod

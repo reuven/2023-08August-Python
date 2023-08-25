@@ -271,3 +271,15 @@ for one_line in open('linux-etc-passwd.txt'):
         continue
 
     print(one_line.split(':'))
+counts = {}    # this is where our counts will go
+
+for one_line in open('linux-etc-passwd.txt'):
+    # ignore comment lines
+    if one_line[0] == '#':
+        continue
+
+    # ignore blank lines
+    if one_line[0].strip() == '':
+        continue
+
+    print(one_line.split(':')[6])

@@ -295,3 +295,23 @@ for one_line in open('linux-etc-passwd.txt'):
         continue
 
     print(one_line.split(':')[6].strip())
+counts = {}    # this is where our counts will go
+
+for one_line in open('linux-etc-passwd.txt'):
+    # ignore comment lines
+    if one_line[0] == '#':
+        continue
+
+    # ignore blank lines
+    if one_line[0].strip() == '':
+        continue
+
+    shell_name = one_line.split(':')[6].strip()
+
+    if shell_name in counts:     # have we seen it before?
+        counts[shell_name] += 1  # add 1 to the count
+    else:
+        counts[shell_name] = 1   # add the key-value pair
+
+for key, value in counts.items():
+    print(f'{key}: {value')

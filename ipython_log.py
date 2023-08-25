@@ -158,3 +158,5 @@ import mymod
 # mymod -- we don't put quotes around its name
 
 import mymod
+type(mymod)
+mymod

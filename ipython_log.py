@@ -205,3 +205,10 @@ for one_character in s:
 
 for key, value in counts.items():
     print(f'{key}: {value}')
+# collections.Counter means -- module collections, class Counter
+
+import collections
+
+# I could also say: from collections import Counter
+
+s

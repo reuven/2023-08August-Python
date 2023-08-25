@@ -230,3 +230,7 @@ for key, value in counts.items():
     print(f'{key}: {value}')
 get_ipython().system('ls *.txt')
 get_ipython().system('head linux-etc-passwd.txt')
+counts = {}    # this is where our counts will go
+
+for one_line in open('linux-etc-passwd.txt'):
+    print(one_line)

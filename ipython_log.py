@@ -64,3 +64,16 @@ from random import randint
 # This makes it possible to invoke "randint" without "random".
 
 randint(0, 100)
+# let's make this a function now:
+
+import string
+
+def count_punctuation(s):
+    total = 0
+    
+    for one_character in s:
+        if one_character in string.punctuation:
+            total += 1
+    
+    print(total)
+normal_punctuation

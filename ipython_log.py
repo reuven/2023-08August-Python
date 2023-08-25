@@ -165,3 +165,8 @@ mymod
 dir(mymod)
 import mymod
 dir(mymod)
+# how do I get access to the variables and function I wrote:
+# I just access them as attributes of the module
+
+mymod.x
+mymod.y

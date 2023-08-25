@@ -152,3 +152,9 @@ for one_filename in glob(pattern):
         print(one_line)
         break
 import mymod
+# import -- no parentheses
+# mymod -- not a filename
+# mymod -- we don't add the .py suffix
+# mymod -- we don't put quotes around its name
+
+import mymod

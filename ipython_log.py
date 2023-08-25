@@ -34,3 +34,8 @@ for one_character in s:
 
 print(total)
 random.randint(0, 100)
+# what if I want to just say "randint"?
+
+# I can't right now:
+
+randint

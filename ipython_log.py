@@ -129,3 +129,8 @@ import pandas as pd
 pattern = '*.txt'
 
 glob.glob(pattern)
+import glob
+
+pattern = '*.txt'
+
+glob.glob(pattern)

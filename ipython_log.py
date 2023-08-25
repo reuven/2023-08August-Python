@@ -219,3 +219,12 @@ import collections
 # I could also say: from collections import Counter
 
 collections.Counter(s)
+# collections.Counter means -- module collections, class Counter
+
+import collections
+
+# I could also say: from collections import Counter
+counts = collections.Counter(s)
+
+for key, value in counts.items():
+    print(f'{key}: {value}')

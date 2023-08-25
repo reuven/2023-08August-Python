@@ -175,3 +175,4 @@ import mymod
 dir(mymod)
 mymod.__name__    # "dunder name" -- double underscore name
 import mymod
+import mymod

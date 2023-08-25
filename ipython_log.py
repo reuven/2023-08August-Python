@@ -193,3 +193,15 @@ littlemod.greet('someone else')
 import sys
 sys.path
 import fixer_currency
+s = input('Enter a string: ').strip()
+
+counts = {}
+
+for one_character in s:
+    if one_character in counts:
+        counts[one_character] += 1
+    else:
+        counts[one_character] = 1
+
+for key, value in counts.items():
+    print(f'{key}: {value}')

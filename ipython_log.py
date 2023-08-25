@@ -192,3 +192,4 @@ littlemod.greet('Reuven')
 littlemod.greet('someone else')
 import sys
 sys.path
+import fixer_currency

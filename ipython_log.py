@@ -190,3 +190,5 @@ import littlemod
 dir(littlemod)
 littlemod.greet('Reuven')
 littlemod.greet('someone else')
+import sys
+sys.path

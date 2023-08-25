@@ -180,3 +180,5 @@ import littlemod
 littlemod.name
 littlemod.greet('Reuven')
 littlemod.hello('Reuven')
+littlemod.greet('Reuven')
+dir(littlemod)

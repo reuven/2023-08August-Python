@@ -103,3 +103,19 @@ from random import randint
 # First: This is why namespaces exist, so we can work without having to worry about variable names colliding.
 # BUT I've heard from companies where basically outlaw the use of "from .. import" because it leads to great
 # ambiguity, that the names are no longer conextualized.
+# let's assume that you use randint in your module.
+# you could say
+
+from random import randint
+
+# what if we have another function variable whose name is the same? Then we will have a namespace collsion!
+
+# First: This is why namespaces exist, so we can work without having to worry about variable names colliding.
+# BUT I've heard from companies where basically outlaw the use of "from .. import" because it leads to great
+# ambiguity, that the names are no longer conextualized.
+
+# We have another solution: We can alias our module or its imported name
+
+import random as r   # the idea is that "r" is an alias to our random module.
+random
+r
